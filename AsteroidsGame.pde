@@ -32,8 +32,8 @@ public void keyPressed(){
   if(key == 'h' || key == 'H'){
     s.setXspeed(0);
     s.setYspeed(0); 
-    s.setCenterX(Math.random()*600);
-    s.setCenterY(Math.random()*600);
-    s.setPointDirection(Math.random()*360);
+    s.setCenterX(Math.random()*600.0);
+    s.setCenterY(Math.random()*600.0);
+    s.setPointDirection(Math.random()*360.0);
   }
 }
