@@ -1,4 +1,4 @@
-Spaceship s = new Spaceship();
+ Spaceship s = new Spaceship();
 Spaceship[] spaceships;
 Star sue = new Star();
 Star[] sues;
