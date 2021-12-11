@@ -113,6 +113,8 @@ public void draw()
         spaceships[i].turn(10);
       }
       if (key == 'h' || key == 'H') {
+        spaceships[i].myXspeed = 0;
+        spaceships[i].myYspeed = 0;
         spaceships[0].myPointDirection = (int)(Math.random()*360);
         spaceships[0].myCenterX = (Math.random()*500);
         spaceships[0].myCenterY = (Math.random()*500); 
